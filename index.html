@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wikipedia Viewer</title>
+    
+    <link rel ="stylesheet" type="text/css" href = "style.css"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/9b2f28a5c2.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://use.fontawesome.com/f63f1a8ff6.js" rel="stylesheet" />
+    
+
+
+
+
+    
+</head>
+
+<body>
+  <h1>Math Calculator</h1>
+  <div id = 'calculator' class='container'>
+    <form>
+      <input type = 'text' id = 'display' disabled>
+      <br>
+      <input type = 'button' value = 'C' id = 'key' onclick = 'toScreen("c")'>
+      <input type = 'button' value = 'CE' id = 'key' onclick = 'backspace()'>
+      <input type = 'button' value = 'x^2' id = 'key' onclick = 'power()'>
+      <input type = 'button' value = '+' id = 'key' onclick = 'toScreen("+")'>
+      <br>
+      <input type = 'button' value = '7' id = 'key' onclick = 'toScreen("7")'>
+      <input type = 'button' value = '8' id = 'key' onclick = 'toScreen("8")'>
+      <input type = 'button' value = '9' id = 'key' onclick = 'toScreen("9")'>
+      <input type = 'button' value = '-' id = 'key' onclick = 'toScreen("-")'>
+      <br>
+      <input type = 'button' value = '4' id = 'key' onclick = 'toScreen("4")'>
+      <input type = 'button' value = '5' id = 'key' onclick = 'toScreen("5")'>
+      <input type = 'button' value = '6' id = 'key' onclick = 'toScreen("6")'>
+      <input type = 'button' value = '*' id = 'key' onclick = 'toScreen("*")'>
+      <br>
+      <input type = 'button' value = '1' id = 'key' onclick = 'toScreen("1")'>
+      <input type = 'button' value = '2' id = 'key' onclick = 'toScreen("2")'>
+      <input type = 'button' value = '3' id = 'key' onclick = 'toScreen("3")'>
+      <input type = 'button' value = '/' id = 'key' onclick = 'toScreen("/")'>
+      <br>
+      <input type = 'button' value = '0' id = 'key' onclick = 'toScreen("0")'>
+      <input type = 'button' value = '.' id = 'key' onclick = 'toScreen(".")'>
+      <input type = 'button' value = '=' id = 'equal' onclick = 'answer()'>
+    </form>
+    
+    <h6>By Yannick Wiley</h6>
+    
+  </div>
+    
+    <script src="javascript.js"></script>
+  
+</body>
+    
+</html>
